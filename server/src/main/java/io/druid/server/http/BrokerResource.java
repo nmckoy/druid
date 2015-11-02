@@ -45,4 +45,6 @@ public class BrokerResource
   {
     return Response.ok(ImmutableMap.of("inventoryInitialized", brokerServerView.isInitialized())).build();
   }
+  
+  //test
 }
